@@ -1,0 +1,14 @@
+  git config --global user.name "Subi-K"
+  git config --global user.email "subious@gmail.com"
+  git init
+  git remote add origin https://github.com/Subi-K/HelloWorld
+  git clone https://github.com/Subi-K/HelloWorld
+  git fetch
+  #git checkout https://github.com/Subi-K/HelloWorld master
+  ##git checkout
+  #git update-ref HEAD master
+  git checkout -t -b master origin
+  #git checkout -t -b master
+  git add newfile
+  git commit -am'newfile'
+  git push
